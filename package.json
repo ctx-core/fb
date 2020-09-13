@@ -2,6 +2,20 @@
 	"name": "@ctx-core/fb",
 	"version": "3.1.33",
 	"description": "ctx-core fb",
+	"keywords": [
+		"ctx-core",
+		"fb"
+	],
+	"homepage": "https://github.com/ctx-core/fb#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/fb/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/fb/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,28 +23,14 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/fb/issues"
-	},
-	"keywords": [
-		"ctx-core",
-		"fb"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/fb/issues"
-	},
-	"homepage": "https://github.com/ctx-core/fb#readme",
-	"publishConfig": {
-		"access": "public"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"devDependencies": {
 		"typescript": "^4.0.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"gitHead": "d2c999b30cf752c0e2ecaa78ae6796f83c7576ec"
 }
