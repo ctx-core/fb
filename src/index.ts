@@ -1,1 +1,1 @@
-export * from './fb_html_attrs_'
+export * from './fb_html_attrs_.js'
