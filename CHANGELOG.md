@@ -1,5 +1,12 @@
 # @ctx-core/fb
 
+## 8.1.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+- fb**html**attrs*: aliased by fb_html_attrs*
+
 ## 8.0.42
 
 ### Patch Changes
