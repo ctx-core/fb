@@ -1,7 +1,7 @@
 export declare function fb__html__attrs_():{
-	xmlns:string
-	'xmlns:og':string
-	'xmlns:fb':string
+    xmlns:string
+    'xmlns:og':string
+    'xmlns:fb':string
 }
 export {
 	fb__html__attrs_ as fb_html_attrs_,
