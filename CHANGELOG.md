@@ -1,5 +1,11 @@
 # @ctx-core/fb
 
+## 8.2.5
+
+### Patch Changes
+
+- tsx: ^4.1.3 -> ^4.1.4
+
 ## 8.2.4
 
 ### Patch Changes
@@ -601,8 +607,7 @@
 
 ### Patch Changes
 
--
-    - .rush
+- - .rush
 
 ## 4.0.5
 
