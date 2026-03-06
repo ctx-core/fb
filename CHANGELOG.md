@@ -1,5 +1,11 @@
 # @ctx-core/fb
 
+## 8.2.13
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+
 ## 8.2.12
 
 ### Patch Changes
